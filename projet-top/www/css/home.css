@@ -1,0 +1,129 @@
+body {
+  -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+  background-color: #971818;
+  /* background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%); */
+  font-family: system-ui, -apple-system, -apple-system-font, "Segoe UI",
+    "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* Padding to avoid the "unsafe" areas behind notches in the screen */
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 160%;
+  margin-left: 16px;
+  color: #fff;
+  width: 70%;
+}
+
+.list-of-top {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  background-color: #e94444;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.list-element a {
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 135%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Change the link color on hover */
+.list-element a:hover {
+  background-color: rgb(255, 121, 121);
+  color: black;
+}
+
+.add-button {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px 30px 30px;
+  border-radius: 50px;
+  background: #971818;
+  box-shadow: 6px 6px 11px #801414, -6px -6px 11px #ae1c1c;
+}
+
+.add-button img {
+  height: 40px;
+  width: 40px;
+}
+
+
+.button-field {
+  display: flex;
+  justify-content: end;
+}
+
+.modal {
+  width: 80%;
+  height: 20%;
+}
+.form-add {
+  color: #000;
+  display: flex;
+}
+
+#name {
+  background-color: #fff;
+}
+
+.form-add {
+  font-weight: bold;
+  color: #000;
+}
+
+.form-name {
+  margin-bottom: 10px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #fff;
+  margin: 16px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  color: rgb(82, 82, 82);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #e94444;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e94444;
+}

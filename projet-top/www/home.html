@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <script>
+        window.addEventListener("load", () => {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker
+                    .register("sw.js", {
+                        scope: "./"
+                    })
+                    .then(function (reg) {});
+            }
+        });
+    </script>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <title>Top</title>
+</head>
+
+<body>
+
+    <h1>Top des aliments essentiels à la vie humaine :</h1>
+    <div class="list-of-top">
+        <ul class="list">
+            <li class="list-element"><a href="tops/top1.html">Top 1 - Eaux</a></li>
+            <li class="list-element"><a>Top 2 - Fruits</a></li>
+            <li class="list-element"><a>Top 3 - Légumes</a></li>
+        </ul>
+    </div>
+    <div class="button-field">
+        <div class="add-button" id="add-button"><a href="#ex1" rel="modal:open"><img src="img/white-plus-icon.jpg"></a></div>
+    </div>
+    <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" class="modal">
+        <div class="form-add">
+            <form>
+                <label class="form-name">Entrez le titre du top</label>
+                <input type="text" id="titre" placeholder="Titre">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $("#sticky").modal({
+            escapeClose: false,
+            clickClose: false,
+            showClose: false
+        });
+    </script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/native.js"></script>
+</body>
+
+</html>

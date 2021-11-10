@@ -1,0 +1,31 @@
+[{
+        "name": "Volvic",
+        "description": "La source profonde Clairvic se situe à Volvic dans le département du Puy-de-Dôme, région Auvergne-Rhône-Alpes, dans un parc public protégé : Le Goulet et les Cheires de Bruvaleix comblé il y a environ 10 000 ans par les émissions et coulées volcaniques : pouzzolanes, basalte et andésite (pierre de Volvic) provenant du Puy de la Nugère. ",
+        "img": "../img/eaux/volvic.png",
+        "link": "https://www.volvic.fr/"
+    },
+    {
+        "name": "Evian",
+        "description": "Sa source se situe dans les Alpes à Évian-les-Bains dans le département de la Haute-Savoie. L’eau est conditionnée à l’usine d’embouteillage d’Amphion-les-Bains, où sont également fabriqués les emballages plastiques en PET.",
+        "img": "../img/eaux/evian.png",
+        "link": "https://www.evian.com/fr/"
+    },
+    {
+        "name": "Cristaline",
+        "description": "Les eaux des bouteilles Cristaline proviennent de 34 sources différentes, 32 en France, une en Italie et une au Luxembourg",
+        "img": "../img/eaux/cristaline.png",
+        "link": "https://www.moneaucristaline.fr/"
+    },
+    {
+        "name": "Vittel",
+        "description": "Source naturelle de vitalité* depuis des millénaires, l’eau minérale naturelle Vittel® rafraîchit le corps et l’esprit à chaque gorgée, et nous invite à profiter pleinement de chaque instant !",
+        "img": "../img/eaux/vittel.png",
+        "link": "https://www.vittel.fr/"
+    },
+    {
+        "name": "Eau du robinet (gratos en plus)",
+        "description": "Tous les minéraux nécessaires à notre organisme sont présents sans excès, dans l’eau du robinet. Mise à disposition 24 heures sur 24 partout, elle peut être bue quotidiennement, sans modération et sans risque, tout au long d’une vie.",
+        "img": "../img/eaux/robinet.png",
+        "link": "https://www.sdea.fr/index.php/fr/l-eau/l-eau-du-robinet/peut-on-boire-l-eau-du-robinet"
+    }
+]
