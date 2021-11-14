@@ -73,7 +73,6 @@ h1 {
   width: 40px;
 }
 
-
 .button-field {
   display: flex;
   justify-content: end;
@@ -126,4 +125,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #e94444;
+}
+
+h4,
+#deviceName {
+  color: white;
+  margin: 0;
 }
