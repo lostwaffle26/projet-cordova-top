@@ -65,6 +65,7 @@ h1 {
   margin: 0 30px 30px 30px;
   border-radius: 50px;
   background: #971818;
+  color: white;
   box-shadow: 6px 6px 11px #801414, -6px -6px 11px #ae1c1c;
 }
 
@@ -131,4 +132,12 @@ h4,
 #deviceName {
   color: white;
   margin: 0;
+}
+
+.offline {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
 }
